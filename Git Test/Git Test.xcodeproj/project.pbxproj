@@ -14,6 +14,7 @@
 		4965C0E01BAAE586007BA7D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4965C0DF1BAAE586007BA7D3 /* Images.xcassets */; };
 		4965C0E31BAAE586007BA7D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4965C0E11BAAE586007BA7D3 /* LaunchScreen.xib */; };
 		4965C0EF1BAAE586007BA7D3 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965C0EE1BAAE586007BA7D3 /* Git_TestTests.m */; };
+		4965C0FA1BAAF6DE007BA7D3 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965C0F91BAAF6DE007BA7D3 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4965C0E81BAAE586007BA7D3 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4965C0ED1BAAE586007BA7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4965C0EE1BAAE586007BA7D3 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4965C0F81BAAF6DE007BA7D3 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		4965C0F91BAAF6DE007BA7D3 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		4965C0C61BAAE586007BA7D3 = {
 			isa = PBXGroup;
 			children = (
+				4965C0F81BAAF6DE007BA7D3 /* Test.h */,
+				4965C0F91BAAF6DE007BA7D3 /* Test.m */,
 				4965C0D11BAAE586007BA7D3 /* Git Test */,
 				4965C0EB1BAAE586007BA7D3 /* Git TestTests */,
 				4965C0D01BAAE586007BA7D3 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4965C0DB1BAAE586007BA7D3 /* ViewController.m in Sources */,
+				4965C0FA1BAAF6DE007BA7D3 /* Test.m in Sources */,
 				4965C0D81BAAE586007BA7D3 /* AppDelegate.m in Sources */,
 				4965C0D51BAAE586007BA7D3 /* main.m in Sources */,
 			);
